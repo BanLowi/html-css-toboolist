@@ -7,20 +7,50 @@
 
 header {
     font-size: 2.5rem;
-    padding: 0.5rem;
-    
+    padding: 0.5rem 2rem;
 }
 
 main {
-    background-color: lightgrey;
+    background-color: rgb(245, 245, 245);
     margin: 0;
     padding: 2rem;
 }
 
+/* main container */
+
 .container {
   background-color: white;
-  height: 8000px;
+  height: 800px;
   width: 800px;
   margin: auto;
   border-radius: 10px;
+  
 }
+
+/* pulsanti task e section */
+
+button {
+    border-radius: 5px;
+    font-size: 0.5;
+    padding: 0.5rem 1rem;
+}
+
+.addbar {
+    border-bottom: 1px solid lightgrey;
+    padding: 1rem 3rem;
+}
+
+.task {
+    background-color: #47adf1;
+    color: white;
+    border: none;
+    border: 1px solid #47adf1;
+}
+
+.section {
+    background-color: white;
+    color: #979797;
+    border: 1px solid #979797;
+}
+
+
