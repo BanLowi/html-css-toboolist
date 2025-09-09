@@ -1,6 +1,7 @@
 * {
   font-family: "Inter", sans-serif;
   margin: 0;
+  color: rgb(46, 55, 68);
 }
     
 /* header+ main */
@@ -53,13 +54,94 @@ button {
     border: 1px solid #979797;
 }
 
-/* taskbar */
+/* task */
 
 .arrow {
-    font-size: 1rem;
-    
+    font-size: 1.5rem;
 }
 
-.title {
+section {
+    line-height: 2rem;
+    padding: 1rem 3rem;
+    align-items: center;
+}
+
+/* checkmarks */
+
+.check {
+    height: 2rem;
+    width: 2rem;
+    border: 2px solid rgb(47, 230, 23);
+    color: rgb(47, 230, 23);
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+.cross {
+    height: 2rem;
+    width: 2rem;
+    border: 2px solid rgb(230, 23, 23);
+    color: rgb(230, 23, 23);
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 1rem;
+    text-align: center;
+}
     
+/* attributes */
+
+.editorial {
+    color: white;
+    font-size: 0.6rem;
+    margin-left: 0.1rem;
+    background-color: #47adf1;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+.q1goals {
+    color: white;
+    font-size: 0.6rem;
+    margin-left: 0.1rem;
+    background-color: #bb47f1;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+.recruiting {
+    color: white;
+    font-size: 0.6rem;
+    margin-left: 0.1rem;
+    background-color: #71c58d;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+.mobile {
+    color: white;
+    font-size: 0.6rem;
+    margin-left: 0.1rem;
+    background-color: #d38c2f;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+.website {
+    color: white;
+    font-size: 0.6rem;
+    margin-left: 0.1rem;
+    background-color: #e266d8;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+.sales {
+    color: white;
+    font-size: 0.6rem;
+    margin-left: 0.1rem;
+    background-color: #cee957;
+    border-radius: 10px;
+    padding: 0.5rem;
 }
