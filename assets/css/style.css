@@ -30,6 +30,7 @@ main {
   width: 800px;
   margin: auto;
   border-radius: 10px;
+  box-shadow: 0rem 0rem 30px rgba(0, 0, 0, 0.1);
   
 }
 
