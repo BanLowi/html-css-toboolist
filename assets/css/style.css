@@ -9,12 +9,17 @@
 header {
     font-size: 2.5rem;
     padding: 0.5rem 2rem;
+    vertical-align: middle;
 }
 
 main {
     background-color: rgb(245, 245, 245);
     margin: 0;
     padding: 2rem;
+}
+
+.align {
+    vertical-align: middle;
 }
 
 /* main container */
@@ -44,7 +49,6 @@ button {
 .task {
     background-color: #47adf1;
     color: white;
-    border: none;
     border: 1px solid #47adf1;
 }
 
