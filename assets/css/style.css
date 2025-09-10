@@ -73,26 +73,26 @@ section {
 
 /* checkmarks */
 
+.icon {
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 1rem;
+}
+
 .check {
-    height: 2rem;
-    width: 2rem;
     border: 2px solid rgb(47, 230, 23);
     color: rgb(47, 230, 23);
-    border-radius: 50%;
-    display: inline-block;
-    margin-right: 1rem;
-    text-align: center;
+    margin-right: 1rem;;
 }
 
 .cross {
-    height: 2rem;
-    width: 2rem;
     border: 2px solid rgb(230, 23, 23);
     color: rgb(230, 23, 23);
-    border-radius: 50%;
-    display: inline-block;
     margin-right: 1rem;
-    text-align: center;
 }
     
 /* attributes */
